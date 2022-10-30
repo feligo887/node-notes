@@ -1,7 +1,7 @@
 // 追加内容
 const fs = require('fs');
 
-const textNewData = '追加内容/<br>';
+const textNewData = '追加内容';
 
 fs.readFile('./test.txt','utf8',(error,success) => {
     if(error) return;
@@ -12,5 +12,7 @@ fs.readFile('./test.txt','utf8',(error,success) => {
 })
 
 function writeData(data) {
-    fs.writeFile('./test.txt',data,(error) => console.log(error));
+    fs.writeFile('./test.txt',data,(error) => {
+        !error &&  console.log('文件操作成功');
+    });
 }
