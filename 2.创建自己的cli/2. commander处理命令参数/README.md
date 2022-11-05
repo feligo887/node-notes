@@ -1,4 +1,5 @@
-### 设置commander指令
+设置commander指令
+> 插件地址： https://github.com/tj/commander.js/blob/HEAD/Readme_zh-CN.md
 ```
 #! /usr/bin/env node
 
@@ -25,3 +26,4 @@ program.parse(process.argv);
 
 
 ```
+### commander模块化拆分
