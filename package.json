@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/feligo887/node-notes/issues"
   },
-  "homepage": "https://github.com/feligo887/node-notes#readme"
+  "homepage": "https://github.com/feligo887/node-notes#readme",
+  "dependencies": {
+    "mongodb": "^4.11.0"
+  }
 }
